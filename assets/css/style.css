@@ -1238,6 +1238,7 @@ section {
   font-size: 17px;
   background: rgb(112, 106, 106);
   color: white;
+  position : fixed;
 }
 /*--------------------------------------------------------------
 # Specials
