@@ -117,14 +117,14 @@ p{
     padding-right: 25px;
 }
 #btn{
-   text-align: center;
-   margin-left: 450px;
-   font-size: 17px;
-   background: rgb(112, 106, 106);
-   color: white;
-   
-
-}
+    text-align: center;
+    margin-left: 45%;
+    font-size: 17px;
+    background: rgb(112, 106, 106);
+    color: white;
+    border-radius: 4px;
+  
+  }
 .col-4{
     flex-basis: 25%;
     padding: 10px;
@@ -180,13 +180,17 @@ h4{
 }
 /*---footer--*/
 .footer{
-    background: cornsilk;
+    background: black;
     color: #8a8a8a;
     font-size: 14px;
     padding: 60px 0 20px;
 }
 .footer p{
     color: #8a8a8a;
+}
+.footer #don{
+    font-family: "Satisfy", sans-serif;
+    color: white;
 }
 .footer h3{
     color: black;
@@ -442,4 +446,70 @@ form a{
     .cart-info p{
         display: none;
     }
+    #btn{
+       
+        margin-left: 35%;
+        background: #333;
+        color: white;
+        border-radius: 4px;
+
+    }
 }
+
+
+/*footer*/
+#footer {
+    background: #35322d;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  #footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffb03b;
+    position: relative;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  #footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links {
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #46423b;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .social-links a:hover {
+    background: #ffb03b;
+  }
+  
+  #footer .copyright {
+    margin: 0 0 5px 0;
+  }
+  
+  #footer .credits {
+    font-size: 13px;
+  }
+  
