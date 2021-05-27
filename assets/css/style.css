@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-  color: #ffc56e;
+  color: #afaaa2;
   text-decoration: none;
 }
 
@@ -1141,13 +1141,6 @@ section {
 #img24:hover .overlay{
   opacity: 1;
 }
-.menu #btn{
-  text-align: center;
-  margin-left: 450px;
-  font-size: 17px;
-  background: rgb(112, 106, 106);
-  color: white;
-}
 .overlay {
   position: absolute;
   bottom: 100%;
@@ -1201,9 +1194,17 @@ section {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  #btn{
+    text-align: center;
+    margin-left: 40%;
+    font-size: 17px;
+    background: rgb(112, 106, 106);
+    color: white;
+    border-radius: 4px;
+  
+  }
 
 }
-
 /*.menu .gallery-item-menu:hover img{
   filter: blur(0.2px) brightness(100%);
   box-shadow: 0 0 16px cyan;
@@ -1234,12 +1235,11 @@ section {
 }*/
 #btn{
   text-align: center;
-  margin-left: 450px;
-  font-size: 17px;
+
   background: rgb(112, 106, 106);
   color: white;
-  position : fixed;
 }
+
 /*--------------------------------------------------------------
 # Specials
 --------------------------------------------------------------*/
